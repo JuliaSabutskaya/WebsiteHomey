@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Homey</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./js/Events.js"></script>
+
+
+</head>
+
+<body style="margin: 0px 60px 0px 60px;"></body>
+
+<!-- Меню вверху -->
+<img class="logo" src="./imag/znak.svg" alt="">
+
+<div class="HorMenu">
+    <div class="Blocks">
+        <a class="HorMenuText" href="./index.html">Главная</a>
+    </div>
+    <div class="Blocks">
+        <a class="HorMenuText" href="./AboutUsPage.html">О нас</a>
+    </div>
+    <div class="Blocks">
+        <a class="HorMenuText" href="./ShopPage.html">Магазин</a>
+    </div>
+    <div class="Blocks">
+        <a class="HorMenuText" href="./Events.html">События</a>
+    </div>
+</div>
+
+<h1 class="Lable">Лента событий</h1>
+<!-- Постеры -->
+<section class="EventsPoster">
+    <div class="Poster1">
+        <div class="HoverDivPosters">
+            <p class="HoverTextPosters">Интервью<br>с Шушиком</p>
+            <p class="HoverText2Posters">Реальные истории<br>из жизни домового</p>
+            <p class="HoverText3Posters">14 мая</p>
+        </div>
+    </div>
+    <div class="Poster2">
+        <div class="HoverDivPosters">
+            <p class="HoverTextPosters">Спич<br>про устойчивою моду от дизанера Хоуми</p>
+            <p class="HoverText2Posters">Ответим на вопросы<br>про вязаную моду будущего</p>
+            <p class="HoverText3Posters">5 мая</p>
+        </div>
+    </div>
+    <div class="Poster3">
+        <div class="HoverDivPosters">
+            <p class="HoverTextPosters">Вечер сивданий</p>
+            <p class="HoverText2Posters">Найди с кем согреться<br>во время вьюги</p>
+            <p class="HoverText3Posters">18 февраля</p>
+        </div>
+    </div>
+    <div class="Poster4">
+        <div class="HoverDivPosters">
+            <p class="HoverTextPosters">Мастер-класс<br>по вязанию спицами</p>
+            <p class="HoverText2Posters">Секреты домовых по созданию<br>самой теплой пряжи</p>
+            <p class="HoverText3Posters">28 апреля</p>
+        </div>
+    </div>
+    <div class="Poster5">
+        <div class="HoverDivPosters">
+            <p class="HoverTextPosters">Психологический тренинг<br>для домовых</p>
+            <p class="HoverText2Posters">Тебе не страшно если есть<br>свитер от Хоуми</p>
+            <p class="HoverText3Posters">20 апреля</p>
+        </div>
+    </div>
+    <div class="Poster6">
+        <div class="HoverDivPosters">
+            <p class="HoverTextPosters">Благотворительная акция</p>
+            <p class="HoverText2Posters">Многие домовые не могут найти<br>себе достойных хозяев. <br> Акция поможет
+                обрести<br>им любящий дом.</p>
+            <p class="HoverText3Posters">14 марта</p>
+        </div>
+    </div>
+</section>
+
+<!-- Popup записаться на мероприятие -->
+<section class="PopUp1">
+    <section class="ModalPosters ModalLoginPosters none">
+        <h2 class="PopUpTitle">Записаться на мероприятие </h2>
+        <div class="Input">
+            <div class="InputCocntent">
+                <label class="TextPopUp" for="name-input">Имя: </label>
+                <input type="text" id="name-input" name="name" required>
+
+            </div>
+            <div class="InputCocntent">
+                <label class="TextPopUp" for="tickets-input">Количество билетов: </label>
+                <input type="number" id="tickets-input" name="tickets" min="1" max="10" required>
+            </div>
+            <div class="InputCocntent">
+                <label class="TextPopUp" for="email-input">Email:</label>
+                <input type="email" id="email-input" required>
+            </div>
+
+
+        </div>
+        <div class="Buttons">
+            <button class="Confirm" type="submit">Записаться</button>
+            <a class="close-button" href="#">Закрыть</a>
+        </div>
+    </section>
+</section>
+<div id="Overlay"></div>
+
+<!-- Кнопка больше -->
+<button class="MoreEvents">Больше событий</button>
+
+<!-- Popup больше событий -->
+<section class="PopUp2">
+    <section class="ModalEvents ModalLoginEvents none">
+        <h2 class="PopUpTitle">Первым узнавай обо всех событиях!</h2>
+        <div class="Input">
+            <label class="TextPop-Up" for="email-input">Email:</label>
+            <input type="email" id="email-input">
+        </div>
+        <div class="Buttons">
+            <button class="Confirm" type="submit">Подтвердить</button>
+            <a class="close-button" href="#">Закрыть</a>
+        </div>
+    </section>
+</section>
+
+<!-- Футер -->
+<section class="Footer">
+    <img class="Patern" src="./imag/Patern.svg" alt="">
+
+    <div class="NameFooter">
+        <p class="NameText"> Б22Д310 <br> Арт практика <br> Юлия Сабуцкая </p>
+        <img class="LogoHSE" src="./imag/LogoHSE.svg" alt="">
+    </div>
+    <div class="FooterLink">
+        <p class="Link">Tiktok</p>
+        <p class="Link">VK</p>
+        <p class="Link">YouTube</p>
+        <p class="Link">Pinterest</p>
+    </div>
+</section>
+
+</body>
