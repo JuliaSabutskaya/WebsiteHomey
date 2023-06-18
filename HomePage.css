@@ -1,0 +1,72 @@
+.TopBar {
+    margin: 0px 60px 0px 60px;
+}
+
+.PatternZig {
+    width: 1531px;
+    height: 729px;
+    display: block;
+    position: relative;
+    background-image: url(../imag/Zigzig.svg);
+}
+
+.ZigZig {
+    width: 1531px;
+    height: 729px;
+    position: absolute;
+    z-index: -1;
+    animation: ZigZig 5s linear infinite;
+}
+
+.Mig {
+    animation: Mig 2s steps(1) infinite;
+}
+
+@keyframes Mig {
+    0% {
+        background-position: 0px top;
+    }
+
+    20% {
+        background-position: -1531px top;
+    }
+
+    40% {
+        background-position: -3062px top;
+    }
+
+    60% {
+        background-position: -4593px top;
+    }
+
+    80% {
+        background-position: -6124px top;
+    }
+
+    90% {
+        background-position: -7655px top;
+    }
+}
+
+.HomeText {
+    position: relative;
+    top: 449px;
+}
+
+.Writer {
+    margin: 0px 60px 0px 60px;
+    position: relative;
+    font-family: ChocolatesEducationalMedium;
+    font-size: 6vw;
+    color: #7E36DA;
+    line-height: 4vw;
+}
+
+.Shushik {
+    margin: 0px 60px 0px 60px;
+    position: relative;
+    margin-top: 1vw;
+    font-family: ChocolatesEducationalMedium;
+    font-size: 3vw;
+    color: #7E36DA;
+}

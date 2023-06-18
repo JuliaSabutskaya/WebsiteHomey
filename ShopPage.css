@@ -1,0 +1,433 @@
+/* Меню вверху */
+.logo {
+    width: 4vw;
+    position: absolute;
+    margin-top: 1vw;
+    margin-left: 0px;
+}
+
+.HorMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Blocks {
+    display: flex;
+    justify-content: center;
+    width: 11vw;
+    height: 3vw;
+    background-color: #7E36DA;
+    border-radius: 3vw;
+    margin: 1vw;
+}
+
+.HorMenuText {
+    font-size: 1.5vw;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    font-family: ChocolatesEducationalMedium;
+}
+
+
+/* Реклама магазина */
+.ShopPoster {
+    position: relative;
+    margin-top: 5vw;
+}
+
+.ImgShopPoster {
+    width: 100%;
+}
+
+/* Каталог */
+.CatalogAll {
+    position: relative;
+    margin-top: 4vw;
+}
+
+.CatalogText {
+    font-size: 6vw;
+    color: #7E36DA;
+    margin: auto;
+    font-family: ChocolatesEducationalRegular;
+
+}
+
+.CatalogVar {
+    display: flex;
+    flex-direction: column
+}
+
+.CatalogVarDetails {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2vw;
+}
+
+.Circle1 {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #FA7AB1;
+}
+
+.Circle1:hover {
+    background-color: #FA7AB1;
+}
+
+.Circle2 {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #FA7AB1;
+}
+
+.Circle2:hover {
+    background-color: #FA7AB1;
+}
+
+.Circle3 {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #FA7AB1;
+}
+
+.Circle3:hover {
+    background-color: #FA7AB1;
+}
+
+.Circle4 {
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #FA7AB1;
+}
+
+.Circle4:hover {
+    background-color: #FA7AB1;
+}
+
+.Pink {
+    background-color: #7E36DA;
+}
+
+.CatalogVarText {
+    margin: 0px 0px 0px 35px;
+    font-size: 3vw;
+    color: #FA7AB1;
+    font-family: ChocolatesEducationalMedium;
+}
+
+.DealShop {
+    position: absolute;
+    top: 2vw;
+    left: 39vw;
+    width: 52vw;
+}
+
+
+/* Карточки товара */
+/* Свитерки */
+.Sweaters {
+    display: block;
+}
+
+.CatalogTextContent {
+    position: relative;
+    margin: 7vw 0px 0px 0px;
+    font-size: 6vw;
+    color: #FA7AB1;
+    font-family: ChocolatesEducationalRegular;
+}
+
+.BlocksSweater {
+    position: relative;
+    top: 1.4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-auto-rows: 400px;
+}
+
+.Sweater1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FF4A11;
+}
+
+.Sweater2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FA7AB1;
+}
+
+.Sweater3 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #7E36DA;
+}
+
+.Sweater4 {
+    grid-column-start: 7;
+    grid-column-end: 8;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FFC516;
+}
+
+.SweatersImg {
+    position: relative;
+    left: -15%;
+}
+
+.Sweater5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #7E36DA;
+}
+
+.Sweater6 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #3CB7E5;
+}
+
+.Sweater7 {
+    grid-column-start: 4;
+    grid-column-end: 8;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FFC516;
+}
+
+/* Шапочки */
+.BlocksHats {
+    position: relative;
+    top: 1.4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-auto-rows: 263px;
+}
+
+.Hats1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #7E36DA;
+}
+
+.Hats2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #3CB7E5;
+}
+
+.Hats3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FFC516;
+}
+
+.Hats4 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #7E36DA;
+}
+
+.Hats5 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FA7AB1;
+}
+
+.Hats6 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FF4A11;
+}
+
+.Hats7 {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FA7AB1;
+}
+
+.Hats8 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #3CB7E5;
+}
+
+/* Шарфики */
+.BlocksScarves {
+    position: relative;
+    top: 1.4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-auto-rows: 249px;
+}
+
+.Scarves1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #FF4A11;
+}
+
+.Scarves2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #3CB7E5;
+}
+
+.Scarves3 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #DA1265;
+}
+
+.Scarves4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #7E36DA;
+}
+
+/* Мерч */
+.BlocksMerch {
+    position: relative;
+    top: 1.4vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    grid-auto-rows: 474px;
+}
+
+.Merch1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #EFE9E5;
+}
+
+.Merch2 {
+    grid-column-start: 5;
+    grid-column-end: 10;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #EEDDD9;
+}
+
+.Merch3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #E6E6E6;
+}
+
+.Merch4 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #A3775B;
+}
+
+.Merch5 {
+    grid-column-start: 6;
+    grid-column-end: 10;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 4px solid #FD3C12;
+    background-color: #F3DFD3;
+}
+
+.Merch1Img {
+    position: relative;
+    top: -70px;
+    width: 40vw;
+}
+
+.Merch2Img {
+    width: 62vw;
+}
+
+.Merch3Img {
+    position: relative;
+    top: -30px;
+    width: 29vw;
+}
+
+.Merch5Img {
+    width: 40vw;
+}
+
+.none {
+    display: none;
+}
