@@ -1,0 +1,22 @@
+/* Стили */
+@import "./stylesheet/AboutUsPage.css";
+@import "./stylesheet/ShopPage.css";
+@import "./stylesheet/Events.css";
+@import "./stylesheet/HomePage.css";
+@import "./stylesheet/404.css";
+
+/* Адаптивы */
+@import "./responsive/1200-1024.css";
+@import "./responsive/768-1023.css";
+@import "./responsive/768-320.css";
+
+/* Шрифты */
+@font-face {
+  font-family: "ChocolatesEducationalMedium";
+  src: url("./fonts/ChocolatesEducationalMedium.otf");
+}
+
+@font-face {
+  font-family: "ChocolatesEducationalRegular";
+  src: url("./fonts/ChocolatesEducationalRegular.otf");
+}
