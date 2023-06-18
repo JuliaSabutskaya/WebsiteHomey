@@ -1,0 +1,400 @@
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    /* Глаавная старница */
+    .ZigZig {
+        position: relative;
+        top: -189px;
+        left: -383px;
+        scale: 0.5;
+    }
+
+    .HomeText {
+        position: relative;
+        top: -480px;
+    }
+
+
+    /* О нас */
+    .Lable {
+        font-size: 6vw;
+        color: #7E36DA;
+        margin: 5vw 0px 0px 0px;
+        font-family: ChocolatesEducationalRegular;
+    }
+
+    .Donat {
+        position: relative;
+        top: -221px;
+        left: 325px;
+        width: 43vw;
+    }
+
+    .Money {
+        width: 43vw;
+        cursor: pointer;
+    }
+
+    .Description {
+        font-family: ChocolatesEducationalMedium;
+        width: 218px;
+        font-size: 1.5vw;
+        color: #28160B;
+    }
+
+    .GalleryAll {
+        position: relative;
+        top: -187px;
+    }
+
+    .SliderAl {
+        z-index: 3;
+        position: relative;
+        top: -830px;
+        left: -137px;
+        scale: 0.7;
+    }
+
+    .Book {
+        margin-right: 10px;
+    }
+
+    .Building {
+        margin-right: 10px;
+    }
+
+    .Video {
+        margin-top: 10px;
+    }
+
+    .container {
+        z-index: 3;
+        scale: 0.8;
+    }
+
+    /* Каталог */
+    .DealShop {
+        position: absolute;
+        top: 2vw;
+        left: 32vw;
+        width: 52vw;
+    }
+
+    /* Свитерки */
+    .BlocksSweater {
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        grid-auto-rows: 300px;
+    }
+
+    .Sweater1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FF4A11;
+    }
+
+    .Sweater2 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FA7AB1;
+    }
+
+    .Sweater3 {
+        grid-column-start: 1;
+        grid-column-end: 8;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #7E36DA;
+    }
+
+    .Sweater4 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FFC516;
+    }
+
+    .SweatersImg {
+        position: relative;
+        left: -15%;
+    }
+
+    .Sweater5 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #7E36DA;
+    }
+
+    .Sweater6 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #3CB7E5;
+    }
+
+    .Sweater7 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FFC516;
+    }
+
+    /* Шапочки */
+    .BlocksHats {
+        position: relative;
+        top: 1.4vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        grid-auto-rows: 150px;
+    }
+
+    .Hats1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #7E36DA;
+    }
+
+    .Hats2 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #3CB7E5;
+    }
+
+    .Hats3 {
+        grid-column-start: 8;
+        grid-column-end: 11;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FFC516;
+    }
+
+    .Hats4 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #7E36DA;
+    }
+
+    .Hats5 {
+        grid-column-start: 4;
+        grid-column-end: 8;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FA7AB1;
+    }
+
+    .Hats6 {
+        grid-column-start: 8;
+        grid-column-end: 11;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FF4A11;
+    }
+
+    .Hats7 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FA7AB1;
+    }
+
+    .Hats8 {
+        grid-column-start: 5;
+        grid-column-end: 11;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #3CB7E5;
+    }
+
+    .HatsImg {
+        width: 22vw;
+    }
+
+    .HatsImg7 {
+        width: 40vw;
+    }
+
+    /* Шарфики */
+    .BlocksScarves {
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        grid-auto-rows: 150px;
+    }
+
+    .Scarves1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #FF4A11;
+    }
+
+    .Scarves2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #3CB7E5;
+    }
+
+    .Scarves3 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #DA1265;
+    }
+
+    .Scarves4 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #7E36DA;
+    }
+
+    .ScarvesImg1 {
+        width: 54vw;
+    }
+
+    .ScarvesImg3 {
+        width: 86vw;
+    }
+
+    .ScarvesImg4 {
+        width: 90vw;
+    }
+
+    /* Мерч */
+    .BlocksMerch {
+        grid-column-gap: 12px;
+        grid-row-gap: 12px;
+        grid-auto-rows: 250px;
+    }
+
+    .Merch1 {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #EFE9E5;
+    }
+
+    .Merch2 {
+        grid-column-start: 5;
+        grid-column-end: 10;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #EEDDD9;
+    }
+
+    .Merch3 {
+        grid-column-start: 1;
+        grid-column-end: 6;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #E6E6E6;
+    }
+
+    .Merch4 {
+        grid-column-start: 6;
+        grid-column-end: 10;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #A3775B;
+    }
+
+    .Merch5 {
+        grid-column-start: 1;
+        grid-column-end: 10;
+        overflow: hidden;
+        border-radius: 8px;
+        border: 3px solid #FD3C12;
+        background-color: #F3DFD3;
+    }
+
+    .Merch1Img {
+        position: relative;
+        top: -70px;
+        left: -25px;
+        width: 42vw;
+    }
+
+    .Merch2Img {
+        width: 67vw;
+    }
+
+    .Merch3Img {
+        position: relative;
+        top: -30px;
+        width: 32vw;
+    }
+
+    .Merch4Img {
+        position: relative;
+        top: -70px;
+        width: 37vw;
+    }
+
+    .Merch5Img {
+        width: 85vw;
+    }
+
+    /* События */
+    .PopUp1 {
+        z-index: 3;
+        position: relative;
+        top: -1363px;
+        left: -301px;
+        scale: 0.7;
+    }
+
+    .PopUp2 {
+        z-index: 3;
+        position: relative;
+        top: -11px;
+        left: -273px;
+        scale: 0.7;
+    }
+
+
+}
